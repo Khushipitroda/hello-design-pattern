@@ -26,7 +26,7 @@ public class Main {
         System.out.println(builderHelloWorld.helloWorld());
 
         System.out.println("3. Factory Method: ");
-        /**
+        /*
          * Difference between "abstract factory" and "factory method" is the abstracting point:
          *  1. Abstracting point of abstract factory is factory.
          *  2. Abstracting point of factory method is generated object.
@@ -43,8 +43,8 @@ public class Main {
         HelloWorld singletonHelloWorld = HelloWorldSingleton.instance();
         System.out.println(singletonHelloWorld.helloWorld());
 
-        System.out.println("====================================");
-        System.out.println("We are structural patterns!");
+        System.out.println("======================================");
+        System.out.println("We are structural patterns!!");
 
         System.out.println("6. Adapter: ");
         HelloWorld adapterHelloWorld = new HelloWorldAdapter(new HelloAdapterDesignPattern());
